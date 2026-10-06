@@ -27,7 +27,7 @@ flowchart LR
 需要 Python 3.10–3.12。PowerShell：
 
 ```powershell
-# 用最终仓库链接克隆，或下载 ZIP 解压后进入项目目录
+git clone https://github.com/kuiwu08-droid/RoboFlex-Cell.git
 cd RoboFlex-Cell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -e ".[test]"
