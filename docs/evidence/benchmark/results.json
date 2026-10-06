@@ -1,0 +1,2921 @@
+{
+  "seed": 42,
+  "cycles": 100,
+  "ok": 100,
+  "ng": 0,
+  "scope": "synthetic vision + Cartesian TCP software-in-the-loop; no hardware",
+  "dt_s": 0.01,
+  "mean_localization_error_mm": 0.001553842241527505,
+  "max_localization_error_mm": 0.04988028731048644,
+  "mean_simulated_cycle_time_s": 6.325499999999998,
+  "p95_simulated_cycle_time_s": 6.721,
+  "benchmark_wall_time_s": 0.649092200000041,
+  "records": [
+    {
+      "cycle": 1,
+      "kind": "circle",
+      "cycle_time_s": 6.23,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1362.0636080043696,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          440,
+          283
+        ],
+        "xy_mm": [
+          410.0,
+          68.5
+        ],
+        "angle_deg": 77.27381279202442
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          440.0,
+          283.0
+        ],
+        "x": 410.0,
+        "y": 68.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 2,
+      "kind": "square",
+      "cycle_time_s": 6.22,
+      "localization_error_mm": 1.4210854715202004e-14,
+      "path_length_mm": 1359.2710204600378,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          287,
+          228
+        ],
+        "xy_mm": [
+          333.5,
+          96.0
+        ],
+        "angle_deg": 35.417528400027436
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          287.0,
+          228.0
+        ],
+        "x": 333.5,
+        "y": 95.99999999999999,
+        "yaw": 144.68878555297877
+      }
+    },
+    {
+      "cycle": 3,
+      "kind": "ring",
+      "cycle_time_s": 6.11,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1331.6519436205476,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          514,
+          283
+        ],
+        "xy_mm": [
+          447.0,
+          68.5
+        ],
+        "angle_deg": 86.62062584940793
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          514.0,
+          283.0
+        ],
+        "x": 447.0,
+        "y": 68.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 4,
+      "kind": "square",
+      "cycle_time_s": 5.92,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1283.1951573726897,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          514,
+          332
+        ],
+        "xy_mm": [
+          447.0,
+          44.0
+        ],
+        "angle_deg": 89.02426137335607
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          514.0,
+          332.0
+        ],
+        "x": 447.0,
+        "y": 43.99999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 5,
+      "kind": "circle",
+      "cycle_time_s": 6.35,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1393.0656558818027,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          121,
+          280
+        ],
+        "xy_mm": [
+          250.5,
+          70.0
+        ],
+        "angle_deg": 60.327250602416896
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          121.0,
+          280.0
+        ],
+        "x": 250.5,
+        "y": 69.99999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 6,
+      "kind": "circle",
+      "cycle_time_s": 6.56,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1445.2313593759563,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          516,
+          186
+        ],
+        "xy_mm": [
+          448.0,
+          117.0
+        ],
+        "angle_deg": 57.77050004174139
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          516.0,
+          186.0
+        ],
+        "x": 448.0,
+        "y": 117.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 7,
+      "kind": "ring",
+      "cycle_time_s": 6.1,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1328.9838346922966,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          448,
+          376
+        ],
+        "xy_mm": [
+          414.0,
+          22.0
+        ],
+        "angle_deg": 0.855578516577199
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          448.0,
+          376.0
+        ],
+        "x": 414.0,
+        "y": 21.999999999999943,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 8,
+      "kind": "circle",
+      "cycle_time_s": 6.32,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1384.7859856022096,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          105,
+          298
+        ],
+        "xy_mm": [
+          242.5,
+          61.0
+        ],
+        "angle_deg": 41.313501044840805
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          105.0,
+          298.0
+        ],
+        "x": 242.5,
+        "y": 60.99999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 9,
+      "kind": "circle",
+      "cycle_time_s": 6.03,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1312.456706913154,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          260,
+          360
+        ],
+        "xy_mm": [
+          320.0,
+          30.0
+        ],
+        "angle_deg": 4.520301284460196
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          260.0,
+          360.0
+        ],
+        "x": 320.0,
+        "y": 29.999999999999943,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 10,
+      "kind": "ring",
+      "cycle_time_s": 6.49,
+      "localization_error_mm": 1.4210854715202004e-14,
+      "path_length_mm": 1427.0035398456353,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          139,
+          213
+        ],
+        "xy_mm": [
+          259.5,
+          103.5
+        ],
+        "angle_deg": 80.93775337163062
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          139.0,
+          213.0
+        ],
+        "x": 259.5,
+        "y": 103.49999999999999,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 11,
+      "kind": "ring",
+      "cycle_time_s": 6.34,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1391.3557421429823,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          297,
+          192
+        ],
+        "xy_mm": [
+          338.5,
+          114.0
+        ],
+        "angle_deg": 33.04758417821847
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          297.0,
+          192.0
+        ],
+        "x": 338.5,
+        "y": 114.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 12,
+      "kind": "ring",
+      "cycle_time_s": 6.15,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1341.7326112039107,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          327,
+          322
+        ],
+        "xy_mm": [
+          353.5,
+          49.0
+        ],
+        "angle_deg": 57.835414004212765
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          327.0,
+          322.0
+        ],
+        "x": 353.5,
+        "y": 48.99999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 13,
+      "kind": "circle",
+      "cycle_time_s": 6.72,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1484.2464457530893,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          108,
+          166
+        ],
+        "xy_mm": [
+          244.0,
+          127.0
+        ],
+        "angle_deg": 41.72677455057257
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          108.0,
+          166.0
+        ],
+        "x": 244.0,
+        "y": 127.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 14,
+      "kind": "ring",
+      "cycle_time_s": 6.21,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1358.2004316604025,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          209,
+          333
+        ],
+        "xy_mm": [
+          294.5,
+          43.5
+        ],
+        "angle_deg": 60.351593917643804
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          209.0,
+          333.0
+        ],
+        "x": 294.5,
+        "y": 43.49999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 15,
+      "kind": "ring",
+      "cycle_time_s": 6.64,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1464.9845071172458,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          156,
+          129
+        ],
+        "xy_mm": [
+          268.0,
+          145.5
+        ],
+        "angle_deg": 43.25928031669868
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          156.0,
+          129.0
+        ],
+        "x": 268.0,
+        "y": 145.5,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 16,
+      "kind": "ring",
+      "cycle_time_s": 6.18,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1348.3085092704232,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          392,
+          261
+        ],
+        "xy_mm": [
+          386.0,
+          79.5
+        ],
+        "angle_deg": 70.50266506707554
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          392.0,
+          261.0
+        ],
+        "x": 386.0,
+        "y": 79.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 17,
+      "kind": "ring",
+      "cycle_time_s": 6.2,
+      "localization_error_mm": 1.4210854715202004e-14,
+      "path_length_mm": 1356.1631232307152,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          497,
+          195
+        ],
+        "xy_mm": [
+          438.5,
+          112.5
+        ],
+        "angle_deg": 81.12576057450826
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          497.0,
+          195.0
+        ],
+        "x": 438.5,
+        "y": 112.49999999999999,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 18,
+      "kind": "ring",
+      "cycle_time_s": 6.26,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1368.6732656671186,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          121,
+          369
+        ],
+        "xy_mm": [
+          250.5,
+          25.5
+        ],
+        "angle_deg": 75.2951848292246
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          121.0,
+          369.0
+        ],
+        "x": 250.5,
+        "y": 25.499999999999943,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 19,
+      "kind": "ring",
+      "cycle_time_s": 6.48,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1424.4802969801244,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          116,
+          236
+        ],
+        "xy_mm": [
+          248.0,
+          92.0
+        ],
+        "angle_deg": 25.666323753608282
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          116.0,
+          236.0
+        ],
+        "x": 248.0,
+        "y": 91.99999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 20,
+      "kind": "circle",
+      "cycle_time_s": 6.67,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1473.4329611951305,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          186,
+          155
+        ],
+        "xy_mm": [
+          283.0,
+          132.5
+        ],
+        "angle_deg": 49.40425120426547
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          186.0,
+          155.0
+        ],
+        "x": 283.0,
+        "y": 132.5,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 21,
+      "kind": "circle",
+      "cycle_time_s": 6.12,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1335.5864067329585,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          452,
+          323
+        ],
+        "xy_mm": [
+          416.0,
+          48.5
+        ],
+        "angle_deg": 5.758482225902601
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          452.0,
+          323.0
+        ],
+        "x": 416.0,
+        "y": 48.49999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 22,
+      "kind": "circle",
+      "cycle_time_s": 6.61,
+      "localization_error_mm": 1.4210854715202004e-14,
+      "path_length_mm": 1456.8466689573654,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          129,
+          193
+        ],
+        "xy_mm": [
+          254.5,
+          113.5
+        ],
+        "angle_deg": 69.58521096037602
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          129.0,
+          193.0
+        ],
+        "x": 254.5,
+        "y": 113.49999999999999,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 23,
+      "kind": "square",
+      "cycle_time_s": 6.06,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1319.0100497379822,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          219,
+          322
+        ],
+        "xy_mm": [
+          299.5,
+          49.0
+        ],
+        "angle_deg": 58.917937622499146
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          219.0,
+          322.0
+        ],
+        "x": 299.5,
+        "y": 48.99999999999994,
+        "yaw": 120.25643539428937
+      }
+    },
+    {
+      "cycle": 24,
+      "kind": "square",
+      "cycle_time_s": 6.57,
+      "localization_error_mm": 0.003447768008040318,
+      "path_length_mm": 1447.912526854493,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          209,
+          122
+        ],
+        "xy_mm": [
+          294.5,
+          149.0
+        ],
+        "angle_deg": 80.8276399871394
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          208.994406504065,
+          121.99596747967477
+        ],
+        "x": 294.4972032520325,
+        "y": 149.00201626016263,
+        "yaw": 99.09027862549195
+      }
+    },
+    {
+      "cycle": 25,
+      "kind": "circle",
+      "cycle_time_s": 6.1,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1328.9160923157679,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          477,
+          337
+        ],
+        "xy_mm": [
+          428.5,
+          41.5
+        ],
+        "angle_deg": 37.742612296340525
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          477.0,
+          337.0
+        ],
+        "x": 428.5,
+        "y": 41.49999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 26,
+      "kind": "circle",
+      "cycle_time_s": 6.87,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1524.1570435530975,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          115,
+          114
+        ],
+        "xy_mm": [
+          247.5,
+          153.0
+        ],
+        "angle_deg": 81.47448107946111
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          115.0,
+          114.0
+        ],
+        "x": 247.5,
+        "y": 153.00000000000003,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 27,
+      "kind": "square",
+      "cycle_time_s": 6.07,
+      "localization_error_mm": 0.01430322009808249,
+      "path_length_mm": 1321.0577439468834,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          358,
+          276
+        ],
+        "xy_mm": [
+          369.0,
+          72.0
+        ],
+        "angle_deg": 46.467648356426814
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          357.99918300653593,
+          276.02859477124184
+        ],
+        "x": 368.999591503268,
+        "y": 71.98570261437905,
+        "yaw": 133.3634262084936
+      }
+    },
+    {
+      "cycle": 28,
+      "kind": "square",
+      "cycle_time_s": 6.02,
+      "localization_error_mm": 0.01430322009808249,
+      "path_length_mm": 1310.1680411256696,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          405,
+          288
+        ],
+        "xy_mm": [
+          392.5,
+          66.0
+        ],
+        "angle_deg": 46.378209180236894
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          404.99918300653593,
+          288.02859477124184
+        ],
+        "x": 392.499591503268,
+        "y": 65.98570261437905,
+        "yaw": 133.3634262084936
+      }
+    },
+    {
+      "cycle": 29,
+      "kind": "circle",
+      "cycle_time_s": 6.3,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1380.4612026198665,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          149,
+          287
+        ],
+        "xy_mm": [
+          264.5,
+          66.5
+        ],
+        "angle_deg": 66.52423354949269
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          149.0,
+          287.0
+        ],
+        "x": 264.5,
+        "y": 66.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 30,
+      "kind": "ring",
+      "cycle_time_s": 6.51,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1432.2062705070293,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          239,
+          140
+        ],
+        "xy_mm": [
+          309.5,
+          140.0
+        ],
+        "angle_deg": 54.42846979510003
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          239.0,
+          140.0
+        ],
+        "x": 309.5,
+        "y": 140.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 31,
+      "kind": "square",
+      "cycle_time_s": 6.04,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1315.0543316802164,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          252,
+          317
+        ],
+        "xy_mm": [
+          316.0,
+          51.5
+        ],
+        "angle_deg": 24.417681355009183
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          252.0,
+          317.0
+        ],
+        "x": 316.0,
+        "y": 51.49999999999994,
+        "yaw": 154.98310470580932
+      }
+    },
+    {
+      "cycle": 32,
+      "kind": "square",
+      "cycle_time_s": 6.51,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1430.621592201865,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          341,
+          113
+        ],
+        "xy_mm": [
+          360.5,
+          153.5
+        ],
+        "angle_deg": 24.37349730723648
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          341.0,
+          113.0
+        ],
+        "x": 360.5,
+        "y": 153.50000000000003,
+        "yaw": 154.98310470581208
+      }
+    },
+    {
+      "cycle": 33,
+      "kind": "square",
+      "cycle_time_s": 6.07,
+      "localization_error_mm": 0.0100160256410868,
+      "path_length_mm": 1322.1095817508103,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          229,
+          312
+        ],
+        "xy_mm": [
+          304.5,
+          54.0
+        ],
+        "angle_deg": 72.90898209116544
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          229.00560897435898,
+          312.0192307692308
+        ],
+        "x": 304.5028044871795,
+        "y": 53.990384615384556,
+        "yaw": 106.26020812988189
+      }
+    },
+    {
+      "cycle": 34,
+      "kind": "ring",
+      "cycle_time_s": 6.25,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1366.403056783851,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          153,
+          349
+        ],
+        "xy_mm": [
+          266.5,
+          35.5
+        ],
+        "angle_deg": 53.779934770184724
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          153.0,
+          349.0
+        ],
+        "x": 266.5,
+        "y": 35.49999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 35,
+      "kind": "ring",
+      "cycle_time_s": 6.28,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1373.4400208326867,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          264,
+          253
+        ],
+        "xy_mm": [
+          322.0,
+          83.5
+        ],
+        "angle_deg": 52.481805659732395
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          264.0,
+          253.0
+        ],
+        "x": 322.0,
+        "y": 83.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 36,
+      "kind": "square",
+      "cycle_time_s": 6.06,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1318.9276061383812,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          175,
+          342
+        ],
+        "xy_mm": [
+          277.5,
+          39.0
+        ],
+        "angle_deg": 6.9192751359802624
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          175.0,
+          342.0
+        ],
+        "x": 277.5,
+        "y": 38.99999999999994,
+        "yaw": 173.15722608566227
+      }
+    },
+    {
+      "cycle": 37,
+      "kind": "circle",
+      "cycle_time_s": 6.11,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1331.4746179437857,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          121,
+          368
+        ],
+        "xy_mm": [
+          250.5,
+          26.0
+        ],
+        "angle_deg": 0.915240386470958
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          121.0,
+          368.0
+        ],
+        "x": 250.5,
+        "y": 25.999999999999943,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 38,
+      "kind": "ring",
+      "cycle_time_s": 6.38,
+      "localization_error_mm": 1.4210854715202004e-14,
+      "path_length_mm": 1400.6721664665054,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          206,
+          223
+        ],
+        "xy_mm": [
+          293.0,
+          98.5
+        ],
+        "angle_deg": 66.10459549618041
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          206.0,
+          223.0
+        ],
+        "x": 293.0,
+        "y": 98.49999999999999,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 39,
+      "kind": "circle",
+      "cycle_time_s": 6.7,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1481.8802387017636,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          409,
+          125
+        ],
+        "xy_mm": [
+          394.5,
+          147.5
+        ],
+        "angle_deg": 0.6744575350412829
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          409.0,
+          125.0
+        ],
+        "x": 394.5,
+        "y": 147.5,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 40,
+      "kind": "circle",
+      "cycle_time_s": 6.17,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1347.8501519826575,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          520,
+          318
+        ],
+        "xy_mm": [
+          450.0,
+          51.0
+        ],
+        "angle_deg": 41.06320630740075
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          520.0,
+          318.0
+        ],
+        "x": 450.0,
+        "y": 50.99999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 41,
+      "kind": "circle",
+      "cycle_time_s": 6.53,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1438.2553691428427,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          393,
+          178
+        ],
+        "xy_mm": [
+          386.5,
+          121.0
+        ],
+        "angle_deg": 87.72300093518727
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          393.0,
+          178.0
+        ],
+        "x": 386.5,
+        "y": 121.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 42,
+      "kind": "circle",
+      "cycle_time_s": 6.31,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1384.1648839003446,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          107,
+          298
+        ],
+        "xy_mm": [
+          243.5,
+          61.0
+        ],
+        "angle_deg": 68.61425219762698
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          107.0,
+          298.0
+        ],
+        "x": 243.5,
+        "y": 60.99999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 43,
+      "kind": "square",
+      "cycle_time_s": 6.18,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1349.6022856529594,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          120,
+          315
+        ],
+        "xy_mm": [
+          250.0,
+          52.5
+        ],
+        "angle_deg": 45.08404687256647
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          120.0,
+          315.0
+        ],
+        "x": 250.0,
+        "y": 52.49999999999994,
+        "yaw": 135.0
+      }
+    },
+    {
+      "cycle": 44,
+      "kind": "circle",
+      "cycle_time_s": 6.59,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1452.6185802135851,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          513,
+          176
+        ],
+        "xy_mm": [
+          446.5,
+          122.0
+        ],
+        "angle_deg": 35.38596616471816
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          513.0,
+          176.0
+        ],
+        "x": 446.5,
+        "y": 122.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 45,
+      "kind": "square",
+      "cycle_time_s": 6.34,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1388.7450483641442,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          264,
+          189
+        ],
+        "xy_mm": [
+          322.0,
+          115.5
+        ],
+        "angle_deg": 65.53330646331186
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          264.0,
+          189.0
+        ],
+        "x": 322.0,
+        "y": 115.5,
+        "yaw": 115.01689910888838
+      }
+    },
+    {
+      "cycle": 46,
+      "kind": "ring",
+      "cycle_time_s": 6.16,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1345.7510492182719,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          330,
+          303
+        ],
+        "xy_mm": [
+          355.0,
+          58.5
+        ],
+        "angle_deg": 41.09418611776418
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          330.0,
+          303.0
+        ],
+        "x": 355.0,
+        "y": 58.49999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 47,
+      "kind": "ring",
+      "cycle_time_s": 6.33,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1389.1496985822457,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          192,
+          259
+        ],
+        "xy_mm": [
+          286.0,
+          80.5
+        ],
+        "angle_deg": 84.12887157640615
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          192.0,
+          259.0
+        ],
+        "x": 286.0,
+        "y": 80.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 48,
+      "kind": "ring",
+      "cycle_time_s": 6.38,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1397.4702671368004,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          156,
+          265
+        ],
+        "xy_mm": [
+          268.0,
+          77.5
+        ],
+        "angle_deg": 50.06819721294441
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          156.0,
+          265.0
+        ],
+        "x": 268.0,
+        "y": 77.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 49,
+      "kind": "circle",
+      "cycle_time_s": 6.4,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1403.5303609340376,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          148,
+          256
+        ],
+        "xy_mm": [
+          264.0,
+          82.0
+        ],
+        "angle_deg": 38.04965831844859
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          148.0,
+          256.0
+        ],
+        "x": 264.0,
+        "y": 81.99999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 50,
+      "kind": "circle",
+      "cycle_time_s": 6.48,
+      "localization_error_mm": 1.4210854715202004e-14,
+      "path_length_mm": 1425.486403805053,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          332,
+          194
+        ],
+        "xy_mm": [
+          356.0,
+          113.0
+        ],
+        "angle_deg": 71.15948158761098
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          332.0,
+          194.0
+        ],
+        "x": 356.0,
+        "y": 112.99999999999999,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 51,
+      "kind": "square",
+      "cycle_time_s": 6.08,
+      "localization_error_mm": 0.0034477680079904546,
+      "path_length_mm": 1323.0537185175317,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          175,
+          334
+        ],
+        "xy_mm": [
+          277.5,
+          43.0
+        ],
+        "angle_deg": 80.9438986011149
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          174.994406504065,
+          333.9959674796748
+        ],
+        "x": 277.4972032520325,
+        "y": 43.00201626016255,
+        "yaw": 99.09027862549195
+      }
+    },
+    {
+      "cycle": 52,
+      "kind": "ring",
+      "cycle_time_s": 6.1,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1328.9805929737283,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          513,
+          337
+        ],
+        "xy_mm": [
+          446.5,
+          41.5
+        ],
+        "angle_deg": 87.54328730975352
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          513.0,
+          337.0
+        ],
+        "x": 446.5,
+        "y": 41.49999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 53,
+      "kind": "circle",
+      "cycle_time_s": 6.32,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1385.5627909412397,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          243,
+          256
+        ],
+        "xy_mm": [
+          311.5,
+          82.0
+        ],
+        "angle_deg": 9.963705797316024
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          243.0,
+          256.0
+        ],
+        "x": 311.5,
+        "y": 81.99999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 54,
+      "kind": "circle",
+      "cycle_time_s": 6.8,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1505.8670428917799,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          270,
+          100
+        ],
+        "xy_mm": [
+          325.0,
+          160.0
+        ],
+        "angle_deg": 47.595731848583426
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          270.0,
+          100.0
+        ],
+        "x": 325.0,
+        "y": 160.00000000000003,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 55,
+      "kind": "circle",
+      "cycle_time_s": 6.64,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1464.6689614755137,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          483,
+          155
+        ],
+        "xy_mm": [
+          431.5,
+          132.5
+        ],
+        "angle_deg": 50.55757278264086
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          483.0,
+          155.0
+        ],
+        "x": 431.5,
+        "y": 132.5,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 56,
+      "kind": "circle",
+      "cycle_time_s": 6.16,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1343.5167890241328,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          214,
+          321
+        ],
+        "xy_mm": [
+          297.0,
+          49.5
+        ],
+        "angle_deg": 60.68894562792594
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          214.0,
+          321.0
+        ],
+        "x": 297.0,
+        "y": 49.49999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 57,
+      "kind": "circle",
+      "cycle_time_s": 6.28,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1375.6548902817185,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          485,
+          271
+        ],
+        "xy_mm": [
+          432.5,
+          74.5
+        ],
+        "angle_deg": 2.785267219978904
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          485.0,
+          271.0
+        ],
+        "x": 432.5,
+        "y": 74.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 58,
+      "kind": "square",
+      "cycle_time_s": 6.28,
+      "localization_error_mm": 1.4210854715202004e-14,
+      "path_length_mm": 1375.8089076467422,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          238,
+          217
+        ],
+        "xy_mm": [
+          309.0,
+          101.5
+        ],
+        "angle_deg": 71.32998005113816
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          238.0,
+          217.0
+        ],
+        "x": 309.0,
+        "y": 101.49999999999999,
+        "yaw": 108.43495178222676
+      }
+    },
+    {
+      "cycle": 59,
+      "kind": "ring",
+      "cycle_time_s": 6.39,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1401.2342957827082,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          109,
+          294
+        ],
+        "xy_mm": [
+          244.5,
+          63.0
+        ],
+        "angle_deg": 28.341349176452766
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          109.0,
+          294.0
+        ],
+        "x": 244.5,
+        "y": 62.99999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 60,
+      "kind": "circle",
+      "cycle_time_s": 6.32,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1387.0899936023698,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          200,
+          263
+        ],
+        "xy_mm": [
+          290.0,
+          78.5
+        ],
+        "angle_deg": 86.3457442167455
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          200.0,
+          263.0
+        ],
+        "x": 290.0,
+        "y": 78.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 61,
+      "kind": "ring",
+      "cycle_time_s": 6.28,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1376.3726831429638,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          398,
+          181
+        ],
+        "xy_mm": [
+          389.0,
+          119.5
+        ],
+        "angle_deg": 88.93205796136716
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          398.0,
+          181.0
+        ],
+        "x": 389.0,
+        "y": 119.5,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 62,
+      "kind": "square",
+      "cycle_time_s": 6.54,
+      "localization_error_mm": 0.04988028731048644,
+      "path_length_mm": 1439.4798275267085,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          214,
+          132
+        ],
+        "xy_mm": [
+          297.0,
+          144.0
+        ],
+        "angle_deg": 37.39865358453455
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          214.05985634477256,
+          131.92019154030328
+        ],
+        "x": 297.0299281723863,
+        "y": 144.0399042298484,
+        "yaw": 143.1301002502428
+      }
+    },
+    {
+      "cycle": 63,
+      "kind": "circle",
+      "cycle_time_s": 6.81,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1506.4034906461977,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          509,
+          109
+        ],
+        "xy_mm": [
+          444.5,
+          155.5
+        ],
+        "angle_deg": 59.38998385244996
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          509.0,
+          109.0
+        ],
+        "x": 444.5,
+        "y": 155.50000000000003,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 64,
+      "kind": "circle",
+      "cycle_time_s": 6.13,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1337.9861099028144,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          234,
+          325
+        ],
+        "xy_mm": [
+          307.0,
+          47.5
+        ],
+        "angle_deg": 13.774342369832233
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          234.0,
+          325.0
+        ],
+        "x": 307.0,
+        "y": 47.49999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 65,
+      "kind": "square",
+      "cycle_time_s": 6.29,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1378.1704192780594,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          472,
+          176
+        ],
+        "xy_mm": [
+          426.0,
+          122.0
+        ],
+        "angle_deg": 67.33473088720432
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          472.0,
+          176.0
+        ],
+        "x": 426.0,
+        "y": 122.0,
+        "yaw": 113.49856567382966
+      }
+    },
+    {
+      "cycle": 66,
+      "kind": "circle",
+      "cycle_time_s": 6.77,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1496.9040348405397,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          171,
+          130
+        ],
+        "xy_mm": [
+          275.5,
+          145.0
+        ],
+        "angle_deg": 0.8036243158933976
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          171.0,
+          130.0
+        ],
+        "x": 275.5,
+        "y": 145.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 67,
+      "kind": "square",
+      "cycle_time_s": 6.19,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1350.0981549220764,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          237,
+          259
+        ],
+        "xy_mm": [
+          308.5,
+          80.5
+        ],
+        "angle_deg": 89.0652638544483
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          237.0,
+          259.0
+        ],
+        "x": 308.5,
+        "y": 80.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 68,
+      "kind": "circle",
+      "cycle_time_s": 6.23,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1362.68802193301,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          389,
+          278
+        ],
+        "xy_mm": [
+          384.5,
+          71.0
+        ],
+        "angle_deg": 42.86317239336871
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          389.0,
+          278.0
+        ],
+        "x": 384.5,
+        "y": 70.99999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 69,
+      "kind": "ring",
+      "cycle_time_s": 6.13,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1336.798620345432,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          431,
+          291
+        ],
+        "xy_mm": [
+          405.5,
+          64.5
+        ],
+        "angle_deg": 54.0172238494397
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          431.0,
+          291.0
+        ],
+        "x": 405.5,
+        "y": 64.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 70,
+      "kind": "ring",
+      "cycle_time_s": 6.49,
+      "localization_error_mm": 1.4210854715202004e-14,
+      "path_length_mm": 1426.1893012480496,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          119,
+          230
+        ],
+        "xy_mm": [
+          249.5,
+          95.0
+        ],
+        "angle_deg": 5.594980866809581
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          119.0,
+          230.0
+        ],
+        "x": 249.5,
+        "y": 94.99999999999999,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 71,
+      "kind": "square",
+      "cycle_time_s": 6.24,
+      "localization_error_mm": 1.4210854715202004e-14,
+      "path_length_mm": 1363.7271110209026,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          276,
+          224
+        ],
+        "xy_mm": [
+          328.0,
+          98.0
+        ],
+        "angle_deg": 77.89285733760663
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          276.0,
+          224.0
+        ],
+        "x": 328.0,
+        "y": 97.99999999999999,
+        "yaw": 102.80426788330443
+      }
+    },
+    {
+      "cycle": 72,
+      "kind": "circle",
+      "cycle_time_s": 6.4,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1406.8850712373892,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          162,
+          247
+        ],
+        "xy_mm": [
+          271.0,
+          86.5
+        ],
+        "angle_deg": 39.98804826438538
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          162.0,
+          247.0
+        ],
+        "x": 271.0,
+        "y": 86.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 73,
+      "kind": "circle",
+      "cycle_time_s": 6.11,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1332.2480243368886,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          100,
+          376
+        ],
+        "xy_mm": [
+          240.0,
+          22.0
+        ],
+        "angle_deg": 38.748910245158946
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          100.0,
+          376.0
+        ],
+        "x": 240.0,
+        "y": 21.999999999999943,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 74,
+      "kind": "circle",
+      "cycle_time_s": 6.3,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1379.8402084454856,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          383,
+          254
+        ],
+        "xy_mm": [
+          381.5,
+          83.0
+        ],
+        "angle_deg": 18.094339449493358
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          383.0,
+          254.0
+        ],
+        "x": 381.5,
+        "y": 82.99999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 75,
+      "kind": "ring",
+      "cycle_time_s": 6.36,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1394.516051615802,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          160,
+          269
+        ],
+        "xy_mm": [
+          270.0,
+          75.5
+        ],
+        "angle_deg": 41.4854158056566
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          160.0,
+          269.0
+        ],
+        "x": 270.0,
+        "y": 75.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 76,
+      "kind": "square",
+      "cycle_time_s": 6.21,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1355.204778925247,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          149,
+          289
+        ],
+        "xy_mm": [
+          264.5,
+          65.5
+        ],
+        "angle_deg": 58.835541967061864
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          149.0,
+          289.0
+        ],
+        "x": 264.5,
+        "y": 65.49999999999997,
+        "yaw": 121.75947952270248
+      }
+    },
+    {
+      "cycle": 77,
+      "kind": "ring",
+      "cycle_time_s": 6.15,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1341.0582536971156,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          345,
+          315
+        ],
+        "xy_mm": [
+          362.5,
+          52.5
+        ],
+        "angle_deg": 1.172321908185342
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          345.0,
+          315.0
+        ],
+        "x": 362.5,
+        "y": 52.49999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 78,
+      "kind": "ring",
+      "cycle_time_s": 6.34,
+      "localization_error_mm": 1.4210854715202004e-14,
+      "path_length_mm": 1388.4341027074447,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          304,
+          195
+        ],
+        "xy_mm": [
+          342.0,
+          112.5
+        ],
+        "angle_deg": 63.212412282273526
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          304.0,
+          195.0
+        ],
+        "x": 342.0,
+        "y": 112.49999999999999,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 79,
+      "kind": "circle",
+      "cycle_time_s": 6.28,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1374.4816134139412,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          434,
+          265
+        ],
+        "xy_mm": [
+          407.0,
+          77.5
+        ],
+        "angle_deg": 77.73892859330303
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          434.0,
+          265.0
+        ],
+        "x": 407.0,
+        "y": 77.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 80,
+      "kind": "ring",
+      "cycle_time_s": 6.36,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1394.7929706522414,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          447,
+          128
+        ],
+        "xy_mm": [
+          413.5,
+          146.0
+        ],
+        "angle_deg": 81.052479417172
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          447.0,
+          128.0
+        ],
+        "x": 413.5,
+        "y": 146.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 81,
+      "kind": "circle",
+      "cycle_time_s": 6.17,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1348.3063356710315,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          464,
+          306
+        ],
+        "xy_mm": [
+          422.0,
+          57.0
+        ],
+        "angle_deg": 43.90505726546899
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          464.0,
+          306.0
+        ],
+        "x": 422.0,
+        "y": 56.99999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 82,
+      "kind": "circle",
+      "cycle_time_s": 6.05,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1318.3344191817073,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          289,
+          347
+        ],
+        "xy_mm": [
+          334.5,
+          36.5
+        ],
+        "angle_deg": 14.36787174079098
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          289.0,
+          347.0
+        ],
+        "x": 334.5,
+        "y": 36.49999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 83,
+      "kind": "circle",
+      "cycle_time_s": 6.67,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1473.355647538342,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          118,
+          176
+        ],
+        "xy_mm": [
+          249.0,
+          122.0
+        ],
+        "angle_deg": 77.35583430145627
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          118.0,
+          176.0
+        ],
+        "x": 249.0,
+        "y": 122.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 84,
+      "kind": "ring",
+      "cycle_time_s": 6.71,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1481.100568440214,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          115,
+          128
+        ],
+        "xy_mm": [
+          247.5,
+          146.0
+        ],
+        "angle_deg": 69.78867427180667
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          115.0,
+          128.0
+        ],
+        "x": 247.5,
+        "y": 146.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 85,
+      "kind": "ring",
+      "cycle_time_s": 6.43,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1413.0769010395252,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          316,
+          139
+        ],
+        "xy_mm": [
+          348.0,
+          140.5
+        ],
+        "angle_deg": 35.71281243979111
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          316.0,
+          139.0
+        ],
+        "x": 348.0,
+        "y": 140.5,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 86,
+      "kind": "square",
+      "cycle_time_s": 5.86,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1271.105071617305,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          473,
+          365
+        ],
+        "xy_mm": [
+          426.5,
+          27.5
+        ],
+        "angle_deg": 62.97054228441429
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          473.0,
+          365.0
+        ],
+        "x": 426.5,
+        "y": 27.499999999999943,
+        "yaw": 116.56504821777833
+      }
+    },
+    {
+      "cycle": 87,
+      "kind": "square",
+      "cycle_time_s": 6.31,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1381.7736364641871,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          442,
+          171
+        ],
+        "xy_mm": [
+          411.0,
+          124.5
+        ],
+        "angle_deg": 1.993041174896929
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          442.0,
+          171.0
+        ],
+        "x": 411.0,
+        "y": 124.5,
+        "yaw": 177.7093899250036
+      }
+    },
+    {
+      "cycle": 88,
+      "kind": "ring",
+      "cycle_time_s": 6.32,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1383.6696883323398,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          206,
+          263
+        ],
+        "xy_mm": [
+          293.0,
+          78.5
+        ],
+        "angle_deg": 1.4822678016275204
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          206.0,
+          263.0
+        ],
+        "x": 293.0,
+        "y": 78.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 89,
+      "kind": "square",
+      "cycle_time_s": 6.05,
+      "localization_error_mm": 0.010105647676005332,
+      "path_length_mm": 1317.6611275102514,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          444,
+          270
+        ],
+        "xy_mm": [
+          412.0,
+          75.0
+        ],
+        "angle_deg": 43.66291296938438
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          444.0138775510204,
+          269.985306122449
+        ],
+        "x": 412.0069387755102,
+        "y": 75.00734693877547,
+        "yaw": 136.63657760620322
+      }
+    },
+    {
+      "cycle": 90,
+      "kind": "ring",
+      "cycle_time_s": 6.17,
+      "localization_error_mm": 5.684341886080802e-14,
+      "path_length_mm": 1349.2595505438858,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          313,
+          299
+        ],
+        "xy_mm": [
+          346.5,
+          60.5
+        ],
+        "angle_deg": 8.64540274148824
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          313.0,
+          299.0
+        ],
+        "x": 346.5,
+        "y": 60.49999999999994,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 91,
+      "kind": "square",
+      "cycle_time_s": 6.52,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1434.359107561394,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          111,
+          184
+        ],
+        "xy_mm": [
+          245.5,
+          118.0
+        ],
+        "angle_deg": 86.69609832827231
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          111.0,
+          184.0
+        ],
+        "x": 245.5,
+        "y": 118.0,
+        "yaw": 92.29061126708737
+      }
+    },
+    {
+      "cycle": 92,
+      "kind": "square",
+      "cycle_time_s": 6.35,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1390.5083291478288,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          357,
+          166
+        ],
+        "xy_mm": [
+          368.5,
+          127.0
+        ],
+        "angle_deg": 74.69025144124653
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          357.0,
+          166.0
+        ],
+        "x": 368.5,
+        "y": 127.0,
+        "yaw": 104.74356079101715
+      }
+    },
+    {
+      "cycle": 93,
+      "kind": "square",
+      "cycle_time_s": 6.51,
+      "localization_error_mm": 0.0,
+      "path_length_mm": 1432.7902990676416,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          161,
+          162
+        ],
+        "xy_mm": [
+          270.5,
+          129.0
+        ],
+        "angle_deg": 27.31574347406667
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          161.0,
+          162.0
+        ],
+        "x": 270.5,
+        "y": 129.0,
+        "yaw": 153.4349498748794
+      }
+    },
+    {
+      "cycle": 94,
+      "kind": "circle",
+      "cycle_time_s": 6.4,
+      "localization_error_mm": 1.4210854715202004e-14,
+      "path_length_mm": 1404.575705071804,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          259,
+          228
+        ],
+        "xy_mm": [
+          319.5,
+          96.0
+        ],
+        "angle_deg": 67.26926301366088
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          259.0,
+          228.0
+        ],
+        "x": 319.5,
+        "y": 95.99999999999999,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 95,
+      "kind": "circle",
+      "cycle_time_s": 6.74,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1490.9225633533852,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          408,
+          114
+        ],
+        "xy_mm": [
+          394.0,
+          153.0
+        ],
+        "angle_deg": 74.66969107860768
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          408.0,
+          114.0
+        ],
+        "x": 394.0,
+        "y": 153.00000000000003,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 96,
+      "kind": "square",
+      "cycle_time_s": 6.25,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1366.8196626432546,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          170,
+          259
+        ],
+        "xy_mm": [
+          275.0,
+          80.5
+        ],
+        "angle_deg": 29.2561296524148
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          170.0,
+          259.0
+        ],
+        "x": 275.0,
+        "y": 80.49999999999997,
+        "yaw": 151.38954353332272
+      }
+    },
+    {
+      "cycle": 97,
+      "kind": "square",
+      "cycle_time_s": 6.3,
+      "localization_error_mm": 1.4210854715202004e-14,
+      "path_length_mm": 1379.167284346986,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          299,
+          194
+        ],
+        "xy_mm": [
+          339.5,
+          113.0
+        ],
+        "angle_deg": 79.55434774690605
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          299.0,
+          194.0
+        ],
+        "x": 339.5,
+        "y": 112.99999999999999,
+        "yaw": 100.49147033691335
+      }
+    },
+    {
+      "cycle": 98,
+      "kind": "circle",
+      "cycle_time_s": 6.41,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1409.1738690586133,
+      "truth": {
+        "kind": "circle",
+        "pixel": [
+          119,
+          259
+        ],
+        "xy_mm": [
+          249.5,
+          80.5
+        ],
+        "angle_deg": 63.84750213178989
+      },
+      "detected": {
+        "kind": "circle",
+        "pixel": [
+          119.0,
+          259.0
+        ],
+        "x": 249.5,
+        "y": 80.49999999999997,
+        "yaw": 0.0
+      }
+    },
+    {
+      "cycle": 99,
+      "kind": "square",
+      "cycle_time_s": 6.56,
+      "localization_error_mm": 0.04988028731044665,
+      "path_length_mm": 1444.2801834795139,
+      "truth": {
+        "kind": "square",
+        "pixel": [
+          110,
+          170
+        ],
+        "xy_mm": [
+          245.0,
+          125.0
+        ],
+        "angle_deg": 37.44740912665343
+      },
+      "detected": {
+        "kind": "square",
+        "pixel": [
+          110.05985634477254,
+          169.92019154030328
+        ],
+        "x": 245.02992817238626,
+        "y": 125.03990422984836,
+        "yaw": 143.13010025024215
+      }
+    },
+    {
+      "cycle": 100,
+      "kind": "ring",
+      "cycle_time_s": 6.11,
+      "localization_error_mm": 2.842170943040401e-14,
+      "path_length_mm": 1333.3311626176685,
+      "truth": {
+        "kind": "ring",
+        "pixel": [
+          459,
+          298
+        ],
+        "xy_mm": [
+          419.5,
+          61.0
+        ],
+        "angle_deg": 73.14765856423134
+      },
+      "detected": {
+        "kind": "ring",
+        "pixel": [
+          459.0,
+          298.0
+        ],
+        "x": 419.5,
+        "y": 60.99999999999997,
+        "yaw": 0.0
+      }
+    }
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "opencv": "4.12.0",
+    "numpy": "2.2.6",
+    "platform": "Windows-10-10.0.19045-SP0"
+  }
+}

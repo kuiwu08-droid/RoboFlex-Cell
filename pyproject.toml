@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roboflex-cell"
+version = "0.1.0"
+description = "Vision-guided automation cell with a reproducible software-in-the-loop simulator"
+requires-python = ">=3.10"
+dependencies = ["numpy==2.2.6", "opencv-python-headless==4.12.0.88"]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.2"]
+cad = ["ezdxf==1.4.3"]
+
+[project.scripts]
+roboflex = "roboflex.cli:main"
+
+[tool.setuptools.package-data]
+roboflex = ["web/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

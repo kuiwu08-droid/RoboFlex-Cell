@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 850">
+<rect width="100%" height="100%" fill="#f9fbfc"/>
+<g fill="none" stroke="#243e49" stroke-width="2">
+<text x="35" y="35" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="20">ROBOFLEX CELL / TOP PLAN / CONCEPT / mm</text>
+<line x1="70" y1="90" x2="970" y2="90"/>
+<line x1="970" y1="90" x2="970" y2="740"/>
+<line x1="970" y1="740" x2="70" y2="740"/>
+<line x1="70" y1="740" x2="70" y2="90"/>
+<text x="420" y="780" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="14">900 x 650 table envelope</text>
+<circle cx="130" cy="450" r="55"/>
+<text x="75" y="525" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="14">Robot base (schematic)</text>
+<line x1="330" y1="250" x2="630" y2="250"/>
+<line x1="630" y1="250" x2="630" y2="470"/>
+<line x1="630" y1="470" x2="330" y2="470"/>
+<line x1="330" y1="470" x2="330" y2="250"/>
+<text x="335" y="235" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="14">Calibrated ROI: X 200..500, Y -20..200</text>
+<line x1="320" y1="270" x2="640" y2="270"/>
+<line x1="640" y1="270" x2="640" y2="440"/>
+<line x1="640" y1="440" x2="320" y2="440"/>
+<line x1="320" y1="440" x2="320" y2="270"/>
+<text x="350" y="300" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="14">Conveyor / stopped-part vision</text>
+<line x1="490" y1="480" x2="550" y2="480"/>
+<line x1="550" y1="480" x2="550" y2="530"/>
+<line x1="550" y1="530" x2="490" y2="530"/>
+<line x1="490" y1="530" x2="490" y2="480"/>
+<text x="470" y="558" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="14">Fixture top Z=80</text>
+<line x1="640" y1="520" x2="740" y2="520"/>
+<line x1="740" y1="520" x2="740" y2="580"/>
+<line x1="740" y1="580" x2="640" y2="580"/>
+<line x1="640" y1="580" x2="640" y2="520"/>
+<text x="755" y="555" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="14">CIRCLE X540</text>
+<line x1="640" y1="420" x2="740" y2="420"/>
+<line x1="740" y1="420" x2="740" y2="480"/>
+<line x1="740" y1="480" x2="640" y2="480"/>
+<line x1="640" y1="480" x2="640" y2="420"/>
+<text x="755" y="455" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="14">SQUARE X540</text>
+<line x1="640" y1="320" x2="740" y2="320"/>
+<line x1="740" y1="320" x2="740" y2="380"/>
+<line x1="740" y1="380" x2="640" y2="380"/>
+<line x1="640" y1="380" x2="640" y2="320"/>
+<text x="755" y="355" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="14">RING X540</text>
+<circle cx="330" cy="550" r="10"/>
+<text x="280" y="590" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="14">HOME (200,-100,160)</text>
+<line x1="130" y1="450" x2="220" y2="450"/>
+<line x1="130" y1="450" x2="130" y2="360"/>
+<text x="226" y="455" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="14">+X</text>
+<text x="122" y="350" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="14">+Y</text>
+<text x="80" y="820" fill="#243e49" stroke="none" font-family="Segoe UI,Arial,sans-serif" font-size="15">RF-M-001 | REV A | 2D concept only; robot reach/link collisions not validated</text>
+</g></svg>

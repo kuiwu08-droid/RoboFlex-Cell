@@ -1,0 +1,170 @@
+[
+  {
+    "fault": "camera_offline",
+    "alarm": {
+      "code": "ALM-001",
+      "message": "相机断线：检查相机连接后复位",
+      "state": "VISION",
+      "sim_time_s": 0.35
+    },
+    "scan_time_s": 0.35000000000000014,
+    "outputs_stopped": true,
+    "reset_with_cause_present_rejected": true,
+    "reset_state": "IDLE",
+    "recovered_ok_cycles": 1
+  },
+  {
+    "fault": "vision_fail",
+    "alarm": {
+      "code": "ALM-002",
+      "message": "视觉目标不唯一或识别失败：检查光照和工件",
+      "state": "VISION",
+      "sim_time_s": 0.35
+    },
+    "scan_time_s": 0.35000000000000014,
+    "outputs_stopped": true,
+    "reset_with_cause_present_rejected": true,
+    "reset_state": "IDLE",
+    "recovered_ok_cycles": 1
+  },
+  {
+    "fault": "robot_not_ready",
+    "alarm": {
+      "code": "ALM-003",
+      "message": "机器人未就绪：检查运行模式和握手",
+      "state": "VISION",
+      "sim_time_s": 0.35
+    },
+    "scan_time_s": 0.35000000000000014,
+    "outputs_stopped": true,
+    "reset_with_cause_present_rejected": true,
+    "reset_state": "IDLE",
+    "recovered_ok_cycles": 1
+  },
+  {
+    "fault": "robot_timeout",
+    "alarm": {
+      "code": "ALM-004",
+      "message": "机器人运动超时：检查任务与驱动反馈",
+      "state": "ROBOT_PICK",
+      "sim_time_s": 6.36
+    },
+    "scan_time_s": 6.359999999999909,
+    "outputs_stopped": true,
+    "reset_with_cause_present_rejected": true,
+    "reset_state": "IDLE",
+    "recovered_ok_cycles": 1
+  },
+  {
+    "fault": "gripper_fail",
+    "alarm": {
+      "code": "ALM-005",
+      "message": "夹爪闭合反馈超时：检查气压与夹爪",
+      "state": "GRIPPER_CLOSE",
+      "sim_time_s": 2.47
+    },
+    "scan_time_s": 2.4699999999999913,
+    "outputs_stopped": true,
+    "reset_with_cause_present_rejected": true,
+    "reset_state": "IDLE",
+    "recovered_ok_cycles": 1
+  },
+  {
+    "fault": "part_dropped",
+    "alarm": {
+      "code": "ALM-006",
+      "message": "放置检测失败：清理工件后复位",
+      "state": "QUALITY_CHECK",
+      "sim_time_s": 4.32
+    },
+    "scan_time_s": 4.319999999999952,
+    "outputs_stopped": true,
+    "reset_with_cause_present_rejected": true,
+    "reset_state": "IDLE",
+    "recovered_ok_cycles": 1
+  },
+  {
+    "fault": "communication_loss",
+    "alarm": {
+      "code": "ALM-007",
+      "message": "通信心跳丢失：恢复连接后复位",
+      "state": "ROBOT_PICK",
+      "sim_time_s": 0.5
+    },
+    "scan_time_s": 0.5000000000000002,
+    "outputs_stopped": true,
+    "reset_with_cause_present_rejected": true,
+    "reset_state": "IDLE",
+    "recovered_ok_cycles": 1
+  },
+  {
+    "fault": "sensor_stuck",
+    "alarm": {
+      "code": "ALM-008",
+      "message": "来料传感器超时：检查传感器与输送线",
+      "state": "WAIT_PART",
+      "sim_time_s": 2.0
+    },
+    "scan_time_s": 2.0000000000000013,
+    "outputs_stopped": true,
+    "reset_with_cause_present_rejected": true,
+    "reset_state": "IDLE",
+    "recovered_ok_cycles": 1
+  },
+  {
+    "fault": "conveyor_jam",
+    "alarm": {
+      "code": "ALM-009",
+      "message": "输送带堵塞：清理输送线后复位",
+      "state": "WAIT_PART",
+      "sim_time_s": 2.0
+    },
+    "scan_time_s": 2.0000000000000013,
+    "outputs_stopped": true,
+    "reset_with_cause_present_rejected": true,
+    "reset_state": "IDLE",
+    "recovered_ok_cycles": 1
+  },
+  {
+    "fault": "estop",
+    "alarm": {
+      "code": "ALM-010",
+      "message": "急停输入断开：解除急停并人工复位",
+      "state": "WAIT_PART",
+      "sim_time_s": 0.01
+    },
+    "scan_time_s": 0.01,
+    "outputs_stopped": true,
+    "reset_with_cause_present_rejected": true,
+    "reset_state": "IDLE",
+    "recovered_ok_cycles": 1
+  },
+  {
+    "fault": "door_open",
+    "alarm": {
+      "code": "ALM-011",
+      "message": "安全门打开：关闭安全门并人工复位",
+      "state": "WAIT_PART",
+      "sim_time_s": 0.01
+    },
+    "scan_time_s": 0.01,
+    "outputs_stopped": true,
+    "reset_with_cause_present_rejected": true,
+    "reset_state": "IDLE",
+    "recovered_ok_cycles": 1
+  },
+  {
+    "fault": "planning_fail",
+    "alarm": {
+      "code": "ALM-012",
+      "message": "路径被拒绝：检查工作范围与夹具位置",
+      "state": "ROBOT_PICK",
+      "sim_time_s": 0.35
+    },
+    "scan_time_s": 0.35000000000000014,
+    "outputs_stopped": true,
+    "reset_with_cause_present_rejected": true,
+    "reset_state": "IDLE",
+    "recovered_ok_cycles": 1
+  }
+]

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 670">
+<rect width="1000" height="670" fill="#f9fbfc"/><style>text{font-family:Segoe UI,Arial,sans-serif;fill:#243e49;font-size:15px}.box{fill:#edf3f4;stroke:#355360;stroke-width:2}.wire{fill:none;stroke:#355360;stroke-width:2}.safe{fill:none;stroke:#b25d35;stroke-width:3}</style>
+<text x="40" y="38" font-size="23">RF-E-001 / CONTROL ARCHITECTURE / CONCEPT</text>
+<rect class="box" x="370" y="70" width="240" height="65"/><text x="400" y="108">24V DC / CONTROL POWER</text>
+<path class="wire" d="M490 135V165H190V205M490 165V205M490 165H790V205"/>
+<rect class="box" x="80" y="205" width="220" height="70"/><text x="112" y="247">PLC / DI - DO - DATA</text>
+<rect class="box" x="380" y="205" width="220" height="70"/><text x="415" y="247">SENSORS / FEEDBACK</text>
+<rect class="box" x="680" y="205" width="220" height="70"/><text x="715" y="247">VALVE / DRIVE I/O</text>
+<path class="wire" d="M190 275V320H190V360M190 320H490V360M490 320H790V360"/>
+<rect class="box" x="80" y="360" width="220" height="70"/><text x="103" y="399">ROBOT CONTROL SIGNALS</text>
+<rect class="box" x="380" y="360" width="220" height="70"/><text x="405" y="399">VISION IPC / GATEWAY</text>
+<rect class="box" x="680" y="360" width="220" height="70"/><text x="706" y="399">CONVEYOR / GRIPPER</text>
+<rect x="80" y="490" width="220" height="70" fill="#fcf1e9" stroke="#b25d35" stroke-width="2"/><text x="105" y="528">E-STOP / DOOR (2 CH)</text>
+<rect x="380" y="490" width="220" height="70" fill="#fcf1e9" stroke="#b25d35" stroke-width="2"/><text x="409" y="528">SAFETY RELAY / PLC</text>
+<rect x="680" y="490" width="220" height="70" fill="#fcf1e9" stroke="#b25d35" stroke-width="2"/><text x="704" y="528">ASSESSED SAFE OUTPUTS</text>
+<path class="safe" d="M300 525H380M600 525H680"/><path class="wire" stroke-dasharray="6 5" d="M490 490V460H40V240H80"/>
+<text x="45" y="451" font-size="12">SafetyOK status mirror only</text><text x="80" y="608">Robot power supply is separate and manufacturer-specific. Camera power depends on interface.</text>
+<text x="80" y="638">No terminal-level wiring / no ratings / no safety certification / reference design only</text>
+</svg>
