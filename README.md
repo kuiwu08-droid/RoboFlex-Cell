@@ -1,10 +1,12 @@
 # RoboFlex Cell
 
-**基于机器视觉的机器人柔性分拣工作站 · Software-in-the-loop automation cell**
+**视觉引导分拣仿真：从图像定位到机器人任务执行与故障恢复。**
 
 [中文详细说明](README_CN.md) · [系统架构](docs/system_architecture.md) · [测试报告](docs/test_report.md) · [机械方案](docs/mechanical_design.md) · [电气方案](docs/electrical_design.md)
 
-面向非标自动化与机器人集成的工程作品：把停带来料、视觉识别、坐标转换、机器人任务握手、夹持、分类放置、异常恢复和测试记录串成一个可复现的闭环。项目可以在 Windows/Linux 上直接运行，无需机器人硬件。
+使用 Python 和 OpenCV 实现分拣控制流程：输送带停稳后识别工件，将图像坐标转换为工作站坐标，再通过任务握手驱动模拟机器人抓取、分类放置。浏览器 HMI 显示相机图像、I/O、报警和生产记录。
+
+重点验证了定位异常、运动超时和复位后的流程恢复。仓库附有 43 项自动化测试、12 类故障场景及 100 次分拣仿真记录，可按下方命令运行。
 
 > **当前版本 v0.1：Python/OpenCV 软件在环仿真。** CODESYS ST 为未编译参考代码，SVG/DXF 为概念图。没有运行 KUKA 真机、ROS2/MoveIt 或实际 PLC；本版本完成分拣，没有实体装配。
 
